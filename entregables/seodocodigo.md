@@ -10,13 +10,13 @@
 
 ##### &#x20;             definir: subtotal, como entero
 
-##### &#x20;             definir: impuestoMonto como entero
+##### &#x20;             definir: impuestoMonto,  como decimal
 
-##### &#x20;             definir: precioFinal, como entero
+##### &#x20;             definir: precioFinal, como decimal
 
 ##### &#x20;             
 
-##### &#x20;              IMPUESTOIVA= 0.19, como decimal
+##### &#x20;              IMPUESTO_IVA= 0.19
 
 ##### 
 
@@ -30,11 +30,11 @@
 
 ##### 
 
-##### &#x20;     proceso: valorganancia <- costoBase \* ganaciaEsperada
+##### &#x20;     proceso: valorGanancia <- costoBase \* ganaciaEsperada
 
 ##### &#x20;              subtotal      <- costoBase + valorGanancia
 
-##### &#x20;              impuestoMonto <- IMPUESTOIVA= 0,19 \* subtotal
+##### &#x20;              impuestoMonto <- IMPUESTO_IVA= 0.19 \* subtotal
 
 ##### &#x20;              preciofinal   <- impuestoMonto + subtotal
 
