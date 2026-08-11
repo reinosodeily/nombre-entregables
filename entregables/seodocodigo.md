@@ -4,7 +4,7 @@
 
 ##### &#x20;             definir: costoBase, como entero
 
-##### &#x20;             definir: ganaciaEsperada como entero
+##### &#x20;             definir: gananciaEsperada, como entero
 
 ##### &#x20;             definir: valorGanancia, como entero
 
@@ -12,7 +12,7 @@
 
 ##### &#x20;             definir: impuestoMonto como entero
 
-##### &#x20;             definir: preciofinal, como entero
+##### &#x20;             definir: precioFinal, como entero
 
 ##### &#x20;             
 
@@ -20,7 +20,7 @@
 
 ##### 
 
-##### &#x20; entrada:     escribir: "ingresar costo base"
+##### &#x20;     entrada: escribir: "ingresar costo base"
 
 ##### &#x20;              leer: costoBase
 
@@ -30,7 +30,7 @@
 
 ##### 
 
-##### &#x20; proceso:     valorganancia <- costoBase \* ganaciaEsperada
+##### &#x20;     proceso: valorganancia <- costoBase \* ganaciaEsperada
 
 ##### &#x20;              subtotal      <- costoBase + valorGanancia
 
@@ -40,7 +40,7 @@
 
 ##### 
 
-##### &#x20; salida:      imprimir "el valor de la ganancia es", valorGanacia
+##### &#x20;     salida: imprimir "el valor de la ganancia es", valorGanacia
 
 ##### &#x20;              imprimir "subtotal es", subtotal 
 
@@ -50,5 +50,4 @@
 
 ##### 
 
-##### fin
-
+##### final
